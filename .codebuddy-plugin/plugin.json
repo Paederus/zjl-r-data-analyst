@@ -1,0 +1,64 @@
+{
+  "name": "zjl-r-data-analyst",
+  "version": "1.3.2",
+  "description": "R language data analysis and publication-grade visualization expert, covering tidyverse data wrangling, statistical modeling, ggplot2 chart systems, and PNG/PDF figure export. Ships a one-command self-check script that runs on base R alone, and a China-optimized installer that auto-selects the fastest domestic CRAN mirror with mirror failover and precompiled binaries.",
+  "author": {
+    "name": "ZhanJL",
+    "email": "zhanjlmail@163.com"
+  },
+  "agents": [
+    "./agents/zjl-r-data-analyst.md"
+  ],
+  "skills": [
+    "./skills/r-data-workbench"
+  ],
+  "expertType": "agent",
+  "agentName": "zjl-r-data-analyst",
+  "displayName": {
+    "en": "R Data Analyst",
+    "zh": "R 数据分析师"
+  },
+  "profession": {
+    "en": "R Data Analysis & Visualization Expert",
+    "zh": "R 语言数据分析与可视化专家"
+  },
+  "displayDescription": {
+    "en": "Cleans, models and plots data in R, delivering publication-grade PNG/PDF figures; ships a one-command self-check that runs on base R alone, a China-optimized package installer, and 30 tested advanced chart recipes.",
+    "zh": "用 R 做数据清洗、统计建模与出版级图表，内置一键自检脚本与国内镜像装包，仅需 base R 即可完整运行验证。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "我有一份数据，帮我用 R 做探索性分析，并画出几张关键图表",
+    "en": "I have a dataset. Run an exploratory analysis in R and produce the key charts."
+  },
+  "plugin": "zjl-r-data-analyst",
+  "tags": [
+    {
+      "en": "R Programming",
+      "zh": "R 语言编程"
+    },
+    {
+      "en": "Data Visualization",
+      "zh": "数据可视化"
+    },
+    {
+      "en": "Statistical Modeling",
+      "zh": "统计建模"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I have a dataset. Run an exploratory analysis in R and produce the key charts.",
+      "zh": "我有一份数据，帮我用 R 做探索性分析，并画出几张关键图表"
+    },
+    {
+      "en": "Draw a grouped boxplot with ggplot2 that is ready for journal submission, exported as a 300 dpi PDF.",
+      "zh": "用 ggplot2 画一张可直接投稿的分组箱线图，导出 300 dpi 的 PDF"
+    },
+    {
+      "en": "Run a linear regression and ANOVA in R, then give me the result tables and diagnostic plots.",
+      "zh": "用 R 做线性回归和方差分析，输出结果表格和诊断图"
+    }
+  ]
+}
